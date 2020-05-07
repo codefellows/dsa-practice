@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 
 import './styles.css';
 
@@ -37,11 +37,24 @@ function RandomDSA(props) {
     setQuestion(newQuestion);
   }
 
+  useEffect( () => {
+    generateQuestion();
+  }, []);
+
+
+  const classes = ['question', question ? 'visible' : ''].join(' ');
+
   return (
     <>
-      <h1>Data Structures Practice</h1>
-      <button onClick={generateQuestion}>Challenge Me!</button>
-      <h2 className="question">{question}</h2>
+      <header>
+        <h1>Data Structures Practice</h1>
+      </header>
+      <main>
+        <h2 className={classes}>{question}</h2>
+      </main>
+      <footer>
+        &copy; 2020 Code Fellows <span>(Inspired by <a href="https://github.com/mnfmnfm">Michelle Ferreirae</a>)</span>
+      </footer>
     </>
   );
 }
