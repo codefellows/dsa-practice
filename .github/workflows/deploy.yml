@@ -21,4 +21,5 @@ jobs:
       run: |
         git config --global user.email "highlander.44@gmail.com"
         git config --global user.name "johncokos"
+        git remote set-url origin https://3b87ba7a879eb7cdae04d4dede2bf2b133c2aae1@github.com/codefellows/dsa-practice.git
         npm run deploy
