@@ -1,4 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
+import { useEffectOnce } from 'react-use';
+
 
 import './styles.css';
 
@@ -37,10 +39,9 @@ function RandomDSA(props) {
     setQuestion(newQuestion);
   }
 
-  useEffect( () => {
+  useEffectOnce(() => {
     generateQuestion();
-  }, []);
-
+  });
 
   const classes = ['question', question ? 'visible' : ''].join(' ');
 
