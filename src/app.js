@@ -35,7 +35,7 @@ function RandomDSA(props) {
     let structure = structures[randomNum(structures.length)];
     let action = actions[randomNum(actions.length)];
     let method = methods[randomNum(methods.length)];
-    let newQuestion = `Given a ${structure}, ${action}, ${method}`;
+    let newQuestion = `Given a ${structure}, ${action} ... ${method}.`;
     setQuestion(newQuestion);
   }
 
