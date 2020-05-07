@@ -19,4 +19,6 @@ jobs:
       run: npm install
     - name: Deploy to GH Pages
       run: |
+        git config --global user.email "highlander.44@gmail.com"
+        git config --global user.name "johncokos"
         npm run deploy
