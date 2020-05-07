@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/dsa-practice/static/css/main.b310fb38.chunk.css",
+    "main.js": "/dsa-practice/static/js/main.ae342b77.chunk.js",
+    "main.js.map": "/dsa-practice/static/js/main.ae342b77.chunk.js.map",
+    "runtime-main.js": "/dsa-practice/static/js/runtime-main.657d9600.js",
+    "runtime-main.js.map": "/dsa-practice/static/js/runtime-main.657d9600.js.map",
+    "static/js/2.8af3b785.chunk.js": "/dsa-practice/static/js/2.8af3b785.chunk.js",
+    "static/js/2.8af3b785.chunk.js.map": "/dsa-practice/static/js/2.8af3b785.chunk.js.map",
+    "index.html": "/dsa-practice/index.html",
+    "precache-manifest.fbced915b0f06f24947b2c0c4c0f84ca.js": "/dsa-practice/precache-manifest.fbced915b0f06f24947b2c0c4c0f84ca.js",
+    "service-worker.js": "/dsa-practice/service-worker.js",
+    "static/css/main.b310fb38.chunk.css.map": "/dsa-practice/static/css/main.b310fb38.chunk.css.map",
+    "static/js/2.8af3b785.chunk.js.LICENSE.txt": "/dsa-practice/static/js/2.8af3b785.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.657d9600.js",
+    "static/js/2.8af3b785.chunk.js",
+    "static/css/main.b310fb38.chunk.css",
+    "static/js/main.ae342b77.chunk.js"
+  ]
+}
